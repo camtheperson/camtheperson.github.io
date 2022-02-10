@@ -1,0 +1,17 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.logo {
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
