@@ -1,0 +1,12 @@
+{
+  "name": "harvest-moon",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:camtheperson/harvest-moon.git",
+  "author": "Cameron Hermens <you@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2"
+  }
+}
