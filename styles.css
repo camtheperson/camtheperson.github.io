@@ -7,6 +7,12 @@ body {
     padding: 0;
 }
 
+@media (min-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
 div,
 input {
     box-sizing: border-box;
@@ -20,6 +26,12 @@ input {
     justify-content: center;
     height: 600px;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .wheat-bg {
+        height: 275px;
+    }
 }
 
 .wheat-bg .container {
@@ -42,6 +54,12 @@ img {
 .logo {
     margin-bottom: 1rem;
     width: 500px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 200px;
+    }
 }
 
 .content {
@@ -73,6 +91,12 @@ a:hover {
     font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+    .text-big {
+        font-size: 1.1rem;
+    }
+}
+
 .text-align-center {
     text-align: center;
 }
@@ -97,6 +121,12 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
+@media (max-width: 768px) {
+    #mc_embed_signup input {
+        font-size: 1rem;
+    }
+}
+
 #mc_embed_signup input[type=email] {
     padding: 1rem;
     width: 100%;
@@ -108,4 +138,9 @@ a:hover {
     color: #fff;
     padding: 1rem;
     width: 100%;
+    -webkit-appearance: none;
+}
+
+#mc_embed_signup .brandingLogo img {
+    max-width: 150px;
 }
