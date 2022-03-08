@@ -70,7 +70,7 @@ img {
 }
 
 a {
-    color: #F57219;
+    color: #daa364;
     font-weight: 400;
     text-decoration: none;
 }
@@ -133,8 +133,8 @@ a:hover {
 }
 
 #mc_embed_signup input[type=submit] {
-    background-color: #F57219;
-    border: 1px solid #F57219;
+    background-color: #daa364;
+    border: 1px solid #daa364;
     color: #fff;
     padding: 1rem;
     width: 100%;
