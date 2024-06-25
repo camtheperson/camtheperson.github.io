@@ -31,7 +31,7 @@ export default function Header() {
                 LinkedIn
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 className="text-lg px-3 py-6 hover:text-theme-pink transition-cb"
                 reloadDocument
@@ -39,7 +39,7 @@ export default function Header() {
               >
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

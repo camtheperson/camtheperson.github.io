@@ -4,6 +4,9 @@ export default {
   content: ['./app/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      boxShadow: {
+        pink: '15px 15px 0 #ffb7b7',
+      },
       colors: {
         'theme-pink': '#ffb7b7',
       },
