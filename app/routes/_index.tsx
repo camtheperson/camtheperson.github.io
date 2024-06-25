@@ -1,5 +1,6 @@
 import type { MetaFunction } from '@remix-run/node'
 
+import Detail from '../components/detail'
 import Header from '../components/header'
 import camdotjpg from '../assets/cam-sitting.jpg'
 
@@ -19,29 +20,23 @@ export default function Index() {
     <div>
       <Header />
 
-      <div className="flex px-4 max-w-screen-lg mx-auto">
-        <div className="flex-sidebar">
+      <div className="md:flex px-4 max-w-screen-lg mx-auto pt-[100px]">
+        <div className="md:flex-sidebar">
           <img
-            src={camdotjpg}
             alt="Cam sitting, looking all eloqent and shit."
-          />
-          <p className="font-bold">Name</p>
-          <p>Cameron Hermens</p>
-          <p className="font-bold">Height</p>
-          <p>6&apos;5&quot;</p>
-          <p className="font-bold"></p>Spirit Animal
-          <p>Giraffe</p>
-          <p className="font-bold"></p>Capabilities
-          <p>
-            Jenkins / Docker / Go / TypeScript / React / Redux / JavaScript /
-            Node.JS / PHP / MySQL / OOP / MVC / HTML5 / CSS3 / SASS / LESS / NPM
-            / Yarn / Webpack / Jest / Cypress / Babel / Gulp / Git / WordPress /
-            Magento / Shopify / i18n / a11y
-          </p>
+            className="mb-9 max-w-[100%]"
+            src={camdotjpg}
+            />
+
+          <Detail title="Name" description="Cameron Hermens" />
+          <Detail title="Height" description="6&apos;5&quot;" />
+          <Detail title="Spirit Animal" description="Giraffe" />
+          <Detail title="Capabilities" description="Jenkins / Docker / Go / TypeScript / React / Redux / JavaScript / Node.JS / PHP / MySQL / OOP / MVC / HTML5 / CSS3 / SASS / LESS / NPM / Yarn / Webpack / Jest / Cypress / Babel / Gulp / Git / WordPress / Magento / Shopify / i18n / a11y" />
+
           <p>Download Resume</p>
         </div>
 
-        <div className="flex-main">
+        <div className="md:flex-main lg:pl-[100px] md:pl-[50px]">
           <h2>Oh. Well hey there.</h2>
 
           <p>
