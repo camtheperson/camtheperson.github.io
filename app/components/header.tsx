@@ -1,6 +1,6 @@
-import { Link } from "@remix-run/react";
+import { Link } from '@remix-run/react'
 
-import logo from "../assets/camtheperson-logo.svg"
+import logo from '../assets/camtheperson-logo.svg'
 
 export default function Header() {
   return (
@@ -13,18 +13,30 @@ export default function Header() {
         <nav>
           <ul className="flex list-none">
             <li>
-              <Link className="text-lg px-3 py-6" reloadDocument to="https://github.com/camtheperson">
+              <Link
+                className="text-lg px-3 py-6 hover:text-theme-pink transition-cb"
+                reloadDocument
+                to="https://github.com/camtheperson"
+              >
                 GitHub
               </Link>
             </li>
 
             <li>
-              <Link className="text-lg px-3 py-6" reloadDocument to="https://www.linkedin.com/in/cameron-hermens/">
+              <Link
+                className="text-lg px-3 py-6 hover:text-theme-pink transition-cb"
+                reloadDocument
+                to="https://www.linkedin.com/in/cameron-hermens/"
+              >
                 LinkedIn
               </Link>
             </li>
             <li>
-              <Link className="text-lg px-3 py-6" reloadDocument to="Contact">
+              <Link
+                className="text-lg px-3 py-6 hover:text-theme-pink transition-cb"
+                reloadDocument
+                to="Contact"
+              >
                 Contact
               </Link>
             </li>

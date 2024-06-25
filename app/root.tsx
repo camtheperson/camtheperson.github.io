@@ -4,14 +4,14 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/node";
+} from '@remix-run/react'
+import type { LinksFunction } from '@remix-run/node'
 
-import "./tailwind.css";
+import './tailwind.css'
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: "https://use.typekit.net/qwn1sdk.css"},
-];
+  { rel: 'stylesheet', href: 'https://use.typekit.net/qwn1sdk.css' },
+]
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -28,9 +28,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Scripts />
       </body>
     </html>
-  );
+  )
 }
 
 export default function App() {
-  return <Outlet />;
+  return <Outlet />
 }
