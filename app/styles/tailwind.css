@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body {
+  @apply dark:bg-gray-950;
   font-family: camingodos-web;
+  color-scheme: dark;
+  color: #fff;
 }

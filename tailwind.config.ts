@@ -17,6 +17,10 @@ export default {
       transitionProperty: {
         cb: 'cubic-bezier(.72,.16,.345,.875)',
       },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      }
     },
   },
   plugins: [],

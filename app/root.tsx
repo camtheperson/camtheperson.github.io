@@ -7,10 +7,11 @@ import {
 } from '@remix-run/react'
 import type { LinksFunction } from '@remix-run/node'
 
-import './tailwind.css'
+import './styles/tailwind.css'
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: 'https://use.typekit.net/qwn1sdk.css' },
+  { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@400;700&display=swap' },
 ]
 
 export function Layout({ children }: { children: React.ReactNode }) {
